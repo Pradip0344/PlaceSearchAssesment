@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { TextInput, FlatList, TouchableOpacity, Text, View, StyleSheet } from 'react-native';
 import axios from 'axios';
 
-const API_KEY = 'AIzaSyBN-RS53GakQuh_uvGA_8Vx6_8V1YrclT8';
+const API_KEY = 'map Api key paste here';
 
 const SearchBar = ({ onSelectPlace }) => {
   const [query, setQuery] = useState('');
